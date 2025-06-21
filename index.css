@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    background-color: black;
+}
+
+h1, h2{
+    font-family: 'Raleway', sans-serif;
+    background-image: linear-gradient(to bottom, #33A8DB, #1472B7);
+    background-clip: text;
+    color: transparent;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+p{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    white-space: normal;
+    overflow-wrap: break-word;
+}
+
+header{
+    padding: 0px;
+    margin: 0px;
+}
+
+.banner{
+    min-height: 600px;
+    background-image: url(/trilha-css-desafio-01/assets/images/banner.png),  linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(49, 168, 221, 0.3) 50%, rgba(0, 0, 0, 0.8) 100%)
+;
+}
+.banner-content {
+    display: flex; 
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-content p{
+    max-width: 500px;
+    text-align: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 248px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 100%;
+}
+
+button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Raleway;
+    text-transform: uppercase;
+    padding: 19px 91px 19px 91px;
+    font-weight: bold;
+    font-size: large;
+    border-image: linear-gradient( #33A8DB, #1472B7);
+    border-image-slice: 1;
+    background-image: linear-gradient(#33A8DB, #1472B7);
+    background-clip: text;
+    color: transparent;
+    font-weight: 900;
+}
+
+#course-content{
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: #33A8DB 1px solid;
+}
+
+#course-content p{
+    font-size: 12px;
+    max-width: 700px;
+    text-align: center;
+}
+
+.module{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 450px;
+    background-color: #252525;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    height: 40px;
+    border-radius: 25px;
+    border-image: linear-gradient( #33A8DB, #1472B7);
+    border-image-slice: 1;
+    white-space: normal;
+    overflow-wrap: break-word;
+    border: #1472B7 1px solid;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
+
+.module span{
+    color: #33A8DB;
+}
+
+#transform-world{
+    background-image: url(/trilha-css-desafio-01/assets/images/woman-code.png);
+    background-size: cover; 
+    background-position: center;
+    background-attachment: fixed;
+    height: 360px;
+    border-top: #33A8DB 1px solid;
+    border-bottom: #33A8DB 1px solid;
+ }
+
+ #transform-world p{
+    max-width: 244px;
+    text-transform: lowercase;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 198px;
+    margin-top: 100px;
+    text-shadow: 2px 3px 2px #33A8DB;
+ }
+ 
+ #professional-challenges{
+    border-bottom: 1px solid #33A8DB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+ #professional-challenges p{
+    max-width: 700px;
+    font-size: 14px;
+    display: flex;
+    text-align: center;
+ }
+
+ footer{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient( to bottom, black, #33a9db10, #33a9db2f, #33a9db44);
+ }
+
+ footer a{
+    color: #33A8DB;
+    text-decoration: none;
+    font-weight: bold;
+ }
